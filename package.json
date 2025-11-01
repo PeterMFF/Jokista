@@ -1,0 +1,41 @@
+{
+  "name": "jokista-game",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "expo": "~51.0.0",
+    "expo-av": "~14.0.1",
+    "moti": "^0.26.1",
+    "react": "18.2.0",
+    "react-native": "0.74.0"
+  }
+}
+
+
+---
+
+⬜ ملف app.json
+
+اكتب اسمه app.json
+وانسخ:
+
+{
+  "expo": {
+    "name": "Jokista Game",
+    "slug": "jokista-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "platforms": ["android", "ios"],
+    "plugins": ["expo-av"],
+    "assetBundlePatterns": ["**/*"]
+  }
+}
